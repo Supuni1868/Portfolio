@@ -10,7 +10,9 @@ const header = () => {
         <h1>K.G.Supuni Shashikala</h1>
         <h5 className = "text-light">Software Enginner</h5>
         <CTA />
-      </div>
+
+
+      
 
     </header>
   )
