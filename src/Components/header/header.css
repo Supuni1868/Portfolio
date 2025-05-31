@@ -47,9 +47,9 @@ header{
     position: absolute;
     left:calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 20rem 20rem 0 0;
+    border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 2.0rem 2.0rem 3.0rem;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
 
@@ -80,5 +80,5 @@ header{
     .header_socials, .scroll_down{
         display: none;
     }
-    
+
 }
