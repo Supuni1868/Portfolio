@@ -1,9 +1,128 @@
 import React from 'react'
 import './experience.css'
+import { BsPatchCheckFill } from 'react-icons/bs'
 
 const experience = () => {
   return (
-    <section id = 'experience'>Experience</section>
+    <section id = 'experience'>
+      <h5>What skills i have</h5>
+      <h2>My Skills</h2>
+
+      <div className="container experience_container">
+        <div className="experience_frontend">
+        <h3>Programming Languages</h3>
+          <div className = "experience_content">
+           <article className='experience_details'>
+            <BsPatchCheckFill/>
+            <h4>Java</h4>
+            <small className = 'text-light'>Experienced</small>
+           </article>
+
+           <article className='experience_details'>
+            <BsPatchCheckFill/>
+            <h4>Python</h4>
+            <small className = 'text-light'>Experienced</small>
+           </article>
+
+           <article className='experience_details'>
+            <BsPatchCheckFill/>
+            <h4>HTML</h4>
+            <small className = 'text-light'>Experienced</small>
+           </article>
+
+           <article className='experience_details'>
+            <BsPatchCheckFill/>
+            <h4>CSS</h4>
+            <small className = 'text-light'>Experienced</small>
+           </article>
+
+           <article className='experience_details'>
+            <BsPatchCheckFill/>
+            <h4>JavaScript</h4>
+            <small className = 'text-light'>Experienced</small>
+           </article>
+
+           <article className='experience_details'>
+            <BsPatchCheckFill/>
+            <h4>PHP</h4>
+            <small className = 'text-light'>Experienced</small>
+           </article>
+
+          </div>
+        </div>
+
+      {/*END OF FRONTEND*/}
+
+        <div className='experience_backend'>
+
+          <h3>Frameworks and Libraries</h3>
+          <div className = "experience_content">
+           <article className='experience_details'>
+            <BsPatchCheckFill/>
+            <h4>React</h4>
+            <small className = 'text-light'>Experienced</small>
+           </article>
+
+           <article className='experience_details'>
+            <BsPatchCheckFill/>
+            <h4>Spring Boot</h4>
+            <small className = 'text-light'>Experienced</small>
+           </article>
+
+           <article className='experience_details'>
+            <BsPatchCheckFill/>
+            <h4>Tailswind CSS</h4>
+            <small className = 'text-light'>Experienced</small>
+           </article>
+
+
+          </div>
+        </div>
+        {/*END OF BACKEND*/}
+
+        <div className='experience_Database'>
+
+          <h3>DataBase</h3>
+          <div className = "experience_content">
+           <article className='experience_details'>
+            <BsPatchCheckFill/>
+            <h4>MySql</h4>
+            <small className = 'text-light'>Experienced</small>
+           </article>
+
+
+          </div>
+        </div>
+        {/*END OF DATABASE*/}
+
+        <div className='experience_Tools'>
+
+          <h3>Tools</h3>
+          <div className = "experience_content">
+           <article className='experience_details'>
+            <BsPatchCheckFill/>
+            <h4>Git</h4>
+            <small className = 'text-light'>Experienced</small>
+           </article>
+
+           <article className='experience_details'>
+            <BsPatchCheckFill/>
+            <h4>Figma</h4>
+            <small className = 'text-light'>Experienced</small>
+           </article>
+
+           <article className='experience_details'>
+            <BsPatchCheckFill/>
+            <h4>Postman</h4>
+            <small className = 'text-light'>Experienced</small>
+           </article>
+
+
+          </div>
+        </div>
+        </div>
+
+      </section>
   )
 }
 
