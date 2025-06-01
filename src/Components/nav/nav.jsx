@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react'
 import './nav.css'
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai'

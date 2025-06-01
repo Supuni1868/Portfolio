@@ -1,11 +1,11 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/ME.png'
+import me from '../../assets/me.jpg'
 import { FaAward } from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
-const about = () => {
+const About = () => {
   return (
     <section id='about'>
       <h5>Get To Know</h5>
@@ -14,26 +14,26 @@ const about = () => {
       <div className = "container about__container">
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={ME} alt="About Image" />
+            <img src={me} alt="About Image" />
           </div>
         </div>
 
         <div className = "about__content"> 
            <div className ="about__cards">
-            <articles className = 'about__card'>
+            <article className = 'about__card'>
               <FaAward className='about_icon'/>
               <h5>Skills</h5>
-            </articles>
+            </article>
 
-            <articles className = 'about__card'>
+            <article className = 'about__card'>
               <FiUsers  className='about_icon'/>
               <h5>Educations</h5>
-            </articles>
+            </article>
 
-            <articles className = 'about__card'>
+            <article className = 'about__card'>
               <VscFolderLibrary className='about_icon'/>
               <h5>Projects</h5>
-            </articles>
+            </article>
 
            </div>
 
@@ -49,4 +49,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About
