@@ -1,6 +1,7 @@
 import React from 'react'
 import './experience.css'
 import { BsPatchCheckFill } from 'react-icons/bs'
+import { motion } from 'framer-motion' // Importing motion from framer-motion for animations
 
 const experience = () => {
   return (
@@ -8,14 +9,20 @@ const experience = () => {
       <h5>What skills i have</h5>
       <h2>My Skills</h2>
 
-      <div className="container experience_container">
+      <motion.div 
+
+      initial={{ opacity: 0, scale:0 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 2 }}
+        
+      className="container experience_container">
         <div className="experience_frontend">
         <h3>Programming Languages</h3>
           <div className = "experience_content">
            <article className='experience_details'>
             <BsPatchCheckFill className='experience_details-icon'/>
             <div>
-              <h4>Java</h4>
+               <h4>Java</h4>
             <small className = 'text-light'>Experienced</small>
             </div>
            </article>
@@ -146,7 +153,7 @@ const experience = () => {
 
           </div>
         </div>
-        </div>
+        </motion.div>
 
       </section>
   )

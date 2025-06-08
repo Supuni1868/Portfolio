@@ -95,7 +95,7 @@ Sujatha Vidyalaya - Matara
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Education</h5>
+      <h2>Education</h2>
 
       <Swiper
         className='container testimonials_container'

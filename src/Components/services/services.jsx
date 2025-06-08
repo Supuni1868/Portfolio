@@ -1,13 +1,23 @@
 import React from 'react'
 import './services.css'
 import { BiCheck } from 'react-icons/bi'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../../variants'
 
 const Services = () => {
   return (
     <section id='services'>
       <h2>Certificates</h2>
 
-      <div className='container services__container'>
+      <motion.div 
+
+      variants={fadeIn('up', 0.3)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{once: false, amount: 0.7}}
+                    
+      
+      className='container services__container'>
         <article className="service">
           <div className='service__head'>
             <h3>Certificate Course</h3>
@@ -41,7 +51,7 @@ const Services = () => {
             <li><BiCheck className='service__list-icon' /><p>CyberZee’24 - University of Kelaniya</p></li>
           </ul>
         </article>
-      </div>
+      </motion.div>
     </section>
   )
 }

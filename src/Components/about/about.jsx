@@ -4,6 +4,8 @@ import me from '../../assets/me.jpg'
 import { FaAward } from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import {motion} from 'framer-motion'
+
 
 const About = () => {
   return (
@@ -11,7 +13,13 @@ const About = () => {
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
-      <div className = "container about__container">
+     <motion.div 
+  initial={{ opacity: 0, x: 100 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 2 }}
+  className="container about__container"
+>
+
         <div className='about__me'>
           <div className='about__me-image'>
             <img src={me} alt="About Image" />
@@ -59,7 +67,7 @@ const About = () => {
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
           
         </div>
-      </div>
+      </motion.div>
     </section>
   )
 }
