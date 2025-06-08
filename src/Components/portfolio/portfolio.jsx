@@ -5,6 +5,7 @@ import IMG2 from '../../assets/Portfolio2.avif';
 import IMG3 from '../../assets/Portfolio3.jpg';
 import IMG4 from '../../assets/Portfolio4.webp';
 import IMG5 from '../../assets/Portfolio5.jpg';
+import IMG6 from '../../assets/Portfolio6.webp';
 
 //DO NOT USE IMAGE IN PRODUCTION
 
@@ -12,39 +13,45 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'This is a portfolio item title.',
-    github: 'https://github.com'
+    title: 'Weather-App',
+    github: 'https://github.com/Supuni1868/Weather-App'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'This is a portfolio item title.',
-    github: 'https://github.com'
+    title: 'BookStore-API',
+    github: 'https://github.com/Supuni1868/BookStore---API'
   },
   {
     id: 3,
-    image: IMG3,
-    title: 'This is a portfolio item title.',
-    github: 'https://github.com'
+    image: IMG6,
+    title: 'Sinhala-Grammar-checker',
+    github: 'https://github.com/Supuni1868/Sinhala-Grammar-checker'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'This is a portfolio item title.',
-    github: 'https://github.com'
+    title: 'Plane Seat Management System',
+    github: 'https://github.com/Supuni1868/PlaneManagement-System'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'This is a portfolio item title.',
-    github: 'https://github.com'
+    title: 'Real Time Event Tiketing System',
+    github: 'https://github.com/Supuni1868/Ticketing-System'
   },
   {
     id: 6,
+    image: IMG3,
+    title: 'Real Time Event Tiketing System - Backend',
+    github: 'https://github.com/Supuni1868/Ticketing-Platform'
+  },
+  {
+    id: 7,
     image: IMG1,
-    title: 'This is a portfolio item title.',
-    github: 'https://github.com'
-  }
+    title: 'Portfolio Website',
+    github: 'https://github.com/Supuni1868/Portfolio'
+  } 
 ]
 
 const Portfolio = () => {

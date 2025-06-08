@@ -20,19 +20,34 @@ const About = () => {
 
         <div className = "about__content"> 
            <div className ="about__cards">
-            <article className = 'about__card'>
-              <FaAward className='about_icon'/>
-              <h5>Skills</h5>
-            </article>
 
+
+              {/* <article className='about__card'>
+                <a href="#experience" className='about__card-link'></a>
+                <FaAward className='about_icon' />
+                <h5>Skills</h5>
+              </article> */}
+
+              <article className='about__card'>
+                <a href="#experience" className='about__card-link' style={{ textDecoration: 'none', color: 'inherit' }}>
+                <FaAward className='about_icon' />
+                <h5>Skills</h5>
+                </a>
+              </article>
+
+            
             <article className = 'about__card'>
+              <a href="#testimonials" className='about__card-link' style={{ textDecoration: 'none', color: 'inherit' }}>
               <FiUsers  className='about_icon'/>
               <h5>Educations</h5>
+              </a>
             </article>
 
             <article className = 'about__card'>
+              <a href="#portfolio" className='about__card-link' style={{ textDecoration: 'none', color: 'inherit' }}>
               <VscFolderLibrary className='about_icon'/>
               <h5>Projects</h5>
+              </a>
             </article>
 
            </div>
