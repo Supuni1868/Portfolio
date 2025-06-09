@@ -40,7 +40,7 @@ header{
 
 
 /*============= ME =============== */
-.me{
+/*.me{
     background: linear-gradient(var(--color-primary),transparent);
     width: 22rem;
     height: 150rem;
@@ -50,7 +50,30 @@ header{
     border-radius: 15rem 15rem 0 0;
     overflow: hidden;
     padding: 0rem 2.5rem 2.5rem 2.5rem;
+}*/
+
+.me {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  left: calc(50% - 7.5rem);
+  margin-top: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 2;
+  background: var(--color-primary); /* optional: fallback background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.me img {
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+ ; /* adjust as needed */
+}
+
 
 
 /*============= SCROLL DOWN =============== */

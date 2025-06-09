@@ -1,8 +1,8 @@
 import React from 'react'
 import './contact.css'
 import { MdOutlineEmail } from 'react-icons/md'
-import { RiMessengerLine } from 'react-icons/ri'
 import { BsWhatsapp } from 'react-icons/bs'
+import { BsLinkedin} from 'react-icons/bs'
 
 const contact = () => {
   return (
@@ -20,10 +20,10 @@ const contact = () => {
             </article>
 
             <article className='contact_option'>
-            <RiMessengerLine className='contact_option-icon'/>
-            <h4>Messenger</h4>
+            <BsLinkedin className='contact_option-icon'/>
+            <h4>Linkedin</h4>
             <h5>Supuni Kotuwegoda Guruge</h5>
-            <a href = "https://m.me/supuni.kotuwegoda.guruge/" target="_blank">Send a message</a>
+            <a href = "https://www.linkedin.com/in/supuni-shashikala-860554294/" target="_blank">Send a message</a>
             </article>
 
             <article className='contact_option'>

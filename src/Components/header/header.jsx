@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/ME.png'
+import ME from '../../assets/Me.png'
 import HeaderSocials from  './HeaderSocials'
 import {motion} from 'framer-motion'
 import { fadeIn } from '../../variants'
@@ -19,7 +19,7 @@ const header = () => {
           viewport={{once: false, amount: 0.7}}
 
         
-        >K.G.Supuni Shashikala</motion.h1>
+        >Supuni Shashikala</motion.h1>
         <motion.h2 
           variants={fadeIn('left', 0.3)}
           initial="hidden"
@@ -34,8 +34,9 @@ const header = () => {
 
         <div className="me">
           <img src={ME} alt="me" />
-        </div>
+        </div> 
 
+         
         <a href = "#contact" className='scroll_down'>Scroll Down</a>
 
       
@@ -45,3 +46,5 @@ const header = () => {
 }
 
 export default header
+
+

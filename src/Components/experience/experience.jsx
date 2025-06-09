@@ -13,7 +13,7 @@ const experience = () => {
 
       initial={{ opacity: 0, scale:0 }}
       whileInView={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 2 }}
+      transition={{ duration: 0.5 }}
         
       className="container experience_container">
         <div className="experience_frontend">
